@@ -8,3 +8,18 @@ h1, h2, h3, h4{
   font-weight: 600;
 }
 
+.item-1{
+  background: url(../images/slide1.jpg) no-repeat center/cover;
+}
+.item-2{
+   background: url(../images/slide4.jpg) no-repeat center/cover;
+}
+.item-3{
+   background: url(../images/slide3.jpg) no-repeat center/cover;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--bs-success) !important;
+  color: #fff !important;
+}
