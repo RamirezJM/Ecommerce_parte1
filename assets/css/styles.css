@@ -23,3 +23,7 @@ h1, h2, h3, h4{
   background-color: var(--bs-success) !important;
   color: #fff !important;
 }
+
+.modal-dialog{
+  max-width: 800px;
+}
