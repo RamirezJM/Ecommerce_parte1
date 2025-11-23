@@ -21,9 +21,12 @@ h1, h2, h3, h4{
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: var(--bs-success) !important;
+  background-image: var(--bs-gradient);
   color: #fff !important;
 }
 
-.modal-dialog{
-  max-width: 800px;
+.list-success li::marker{
+  color: #198754;
+  font-size: 1.5rem;
+
 }

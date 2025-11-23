@@ -78,47 +78,46 @@
 
     <section class="productos bg-light" id="productos">
       <div class="container">
-        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <h2 class="text-center mb-5 pt-5">Nuestros Productos</h2>
 
-        <ul class="nav nav-pills mb-3 nav-justified" id="pills-tab" role="tablist">
-          <!--  <li class="nav-item" role="presentation">
-            <button class="nav-link text-success active" id="pills-todos-tab" data-bs-toggle="pill"
-              data-bs-target="#pills-todos" type="button" role="tab" aria-controls="pills-todos"
-              aria-selected="true">Todos</button>
-          </li> -->
+        <!-- === submenu === -->
+
+        <ul class="nav nav-pills mb-5 nav-justified" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link text-success active" id="pills-frutas-tab" data-bs-toggle="pill"
+            <button class="nav-link text-success fw-semibold fs-5 active" id="pills-frutas-tab" data-bs-toggle="pill"
               data-bs-target="#pills-frutas" type="button" role="tab" aria-controls="pills-frutas"
               aria-selected="false">Frutas</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link text-success" id="pills-verduras-tab" data-bs-toggle="pill"
+            <button class="nav-link text-success fw-semibold fs-5" id="pills-verduras-tab" data-bs-toggle="pill"
               data-bs-target="#pills-verduras" type="button" role="tab" aria-controls="pills-verduras"
               aria-selected="false">Verduras</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link text-success" id="pills-lacteos-tab" data-bs-toggle="pill"
+            <button class="nav-link text-success fw-semibold fs-5" id="pills-lacteos-tab" data-bs-toggle="pill"
               data-bs-target="#pills-lacteos" type="button" role="tab" aria-controls="pills-lacteos"
               aria-selected="false">Lácteos y Huevos</button>
           </li>
-
         </ul>
-        <div class="tab-content" id="pills-tabContent">
 
+        <!-- === tarjetas frutas === -->
+
+        <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-frutas" role="tabpanel" aria-labelledby="pills-frutas-tab"
             tabindex="0">
             <div class="container-fluid p-sm-5 p-md-2">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
                 <div class="col">
                   <div class="card shadow-lg">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/frutas/arandano.webp" alt="" class="img-fluid">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/frutas/arandano.webp" alt="arándanos"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Arándanos</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
+                      <p class="card-text fs-4 fw-semibold text-muted">$2500</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#arandanos">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
@@ -127,15 +126,15 @@
                 </div>
 
                 <div class="col">
-                  <div class="card">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/frutas/manzana.webp" alt="" class="img-fluid">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/frutas/manzana.webp" alt="manzanas"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Manzana</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
+                      <p class="card-text fs-4 fw-semibold text-muted">$1000</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#manzana">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
@@ -144,15 +143,15 @@
                 </div>
 
                 <div class="col">
-                  <div class="card">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/frutas/frutilla.webp" alt="" class="img-fluid">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/frutas/frutilla.webp" alt="frutillas"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Frutillas</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
+                      <p class="card-text fs-4 fw-semibold text-muted">$1200</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#frutillas">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
@@ -162,15 +161,15 @@
 
 
                 <div class="col">
-                  <div class="card">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/frutas/durazno.webp" alt="" class="img-fluid">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/frutas/durazno.webp" alt="duraznos"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Durazno</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
+                      <p class="card-text fs-4 fw-semibold text-muted">$1000</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#durazno">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
@@ -180,41 +179,43 @@
 
 
                 <div class="col">
-                  <div class="card">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/frutas/naranja.webp" alt="" class="img-fluid">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/frutas/naranja.webp" alt="naranjas"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Naranjas</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
+                      <p class="card-text fs-4 fw-semibold text-muted">$1200</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#naranja">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
                   </div>
                 </div>
-
-
               </div>
             </div>
           </div>
+
+          <!--  === tarjetas verduras === -->
+
           <div class="tab-pane fade" id="pills-verduras" role="tabpanel" aria-labelledby="pills-verduras-tab"
             tabindex="0">
             <div class="container p-4">
-              <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
                 <div class="col">
-                  <div class="card shadow-lg">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/verduras/lechuga.webp" alt="" class="img-fluid">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/verduras/lechuga.webp" alt="lechuga"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Lechuga</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#lechuga">
+                      <p class="card-text fs-4 fw-semibold text-muted">$600</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#lechuga">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
@@ -222,33 +223,33 @@
                 </div>
 
                 <div class="col">
-                  <div class="card">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/verduras/tomate.webp" alt="" class="img-fluid">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/verduras/tomate.webp" alt="tomates"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Tomate</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#tomate">
+                      <p class="card-text fs-4 fw-semibold text-muted">$1000</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#tomate">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
                   </div>
                 </div>
 
-               <div class="col">
-                  <div class="card">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/verduras/brocoli.webp" alt="" class="img-fluid">
+                <div class="col">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/verduras/brocoli.webp" alt="brócoli"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Brocoli</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#brocoli">
+                    <div class="card-body text-center">
+                      <h3 class="card-title">Brócoli</h3>
+                      <p class="card-text fs-4 fw-semibold text-muted">$1200</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#brocoli">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
@@ -258,15 +259,15 @@
 
                 <div class="col">
                   <div class="card shadow-lg">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/verduras/papa.webp" alt="" class="img-fluid">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/verduras/papa.webp" alt="papas"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Papas</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#papas">
+                      <p class="card-text fs-4 fw-semibold text-muted">$500</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#papas">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
@@ -275,39 +276,43 @@
 
                 <div class="col">
                   <div class="card shadow-lg">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/verduras/zanahoria.webp" alt="" class="img-fluid">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/verduras/zanahoria.webp" alt="zanahorias"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Zanahoria</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#zanahoria">
+                     <p class="card-text fs-4 fw-semibold text-muted">$900</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#zanahoria">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
+
+          <!-- === tarjetas lácteos y huevos === -->
+
           <div class="tab-pane fade" id="pills-lacteos" role="tabpanel" aria-labelledby="pills-lacteos-tab"
             tabindex="0">
             <div class="container p-4">
-              <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+              
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    
+                
                 <div class="col">
-                  <div class="card shadow-lg">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/lacteos/leche.webp" alt="" class="img-fluid">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/lacteos/leche.webp" alt="leche" class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Leche</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#leche">
+                      <p class="card-text fs-4 fw-semibold text-muted">$1500</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#leche">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
@@ -315,32 +320,32 @@
                 </div>
 
                 <div class="col">
-                  <div class="card">
+                  <div class="card shadow">
                     <div class="card-img top">
-                      <img src="assets/images/productos/lacteos/queso.webp" alt="" class="img-fluid">
+                      <img src="assets/images/productos/lacteos/queso.webp" alt="quesillo" class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Quesillo</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#quesillo">
+                      <p class="card-text fs-4 fw-semibold text-muted">$2500</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#quesillo">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
                   </div>
                 </div>
+
                 <div class="col">
-                  <div class="card shadow-lg">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/lacteos/huevos.webp" alt="" class="img-fluid">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/lacteos/huevos.webp" alt="huevos"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Huevos</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#huevos">
+                     <p class="card-text fs-4 fw-semibold text-muted">$2500</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#huevos">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
@@ -348,54 +353,53 @@
                 </div>
 
                 <div class="col">
-                  <div class="card">
-                    <div class="card-img top">
-                      <img src="assets/images/productos/lacteos/queso2.webp" alt=""
-                        class="img-fluid border-top rounded-2">
+                  <div class="card shadow">
+                    <div class="card-img-top">
+                      <img src="assets/images/productos/lacteos/queso2.webp" alt="queso"
+                        class="img-fluid border-top rounded">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h3 class="card-title">Queso</h3>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, sunt?
-                      </p>
-                      <button class="btn btn-success">comprar</button>
-                       <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#queso">
+                      <p class="card-text fs-4 fw-semibold text-muted">$2000</p>
+                      <button class="btn btn-success bg-gradient">comprar</button>
+                      <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#queso">
                         <span class="visually-hidden">Ver detalles del producto</span>
                       </a>
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
-
         </div>
       </div>
-
     </section>
+
+
+    <!-- === Modales productos === -->
 
     <section class="modals">
 
       <!-- ==== Frutas ==== -->
       <div class="modal fade" id="arandanos">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-6">
-                  <img src="assets/images/productos/frutas/arandano.webp" alt="arandanos" class="img-fluid">
+                  <img src="assets/images/productos/frutas/arandano.webp" alt="arándanos" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Arándanos</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Arándanos</h3>
+                  <ul class="list-success">
                     <li>Pote de 500grs.</li>
                     <li>Ricos en antioxidantes</li>
                     <li>Bajos en calorías</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$2500</p>
+                  <p class="display-5 fw-semibold ps-2">$2500</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -405,7 +409,7 @@
       </div>
 
       <div class="modal fade" id="manzana">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -413,16 +417,16 @@
                   <img src="assets/images/productos/frutas/manzana.webp" alt="manzanas" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Manzana</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Manzana</h3>
+                  <ul class="list-success">
                     <li>Venta por kilo</li>
                     <li>Punto óptimo de madurez</li>
                     <li>Fuente natural de fibra y poder antioxidante</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$1000</p>
+                  <p class="display-5 fw-semibold ps-2">$1000</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded text-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded text-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -432,7 +436,7 @@
       </div>
 
       <div class="modal fade" id="frutillas">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -440,16 +444,16 @@
                   <img src="assets/images/productos/frutas/frutilla.webp" alt="frutillas" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Frutillas</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Frutillas</h3>
+                  <ul class="list-success">
                     <li>Pote de 500grs.</li>
                     <li>Sabor y aroma intensos</li>
                     <li>Gran aporte de vitamina C</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$1200</p>
+                  <p class="display-5 fw-semibold ps-2">$1200</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -459,7 +463,7 @@
       </div>
 
       <div class="modal fade" id="durazno">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -467,16 +471,16 @@
                   <img src="assets/images/productos/frutas/durazno.webp" alt="duraznos" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Durazno</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Durazno</h3>
+                  <ul class="list-success">
                     <li>Venta por kilo</li>
                     <li>Jugosos y aromáticos</li>
                     <li>Ricos en betacaroteno</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$1800</p>
+                  <p class="display-5 fw-semibold ps-2">$1800</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -486,7 +490,7 @@
       </div>
 
       <div class="modal fade" id="naranja">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -494,16 +498,16 @@
                   <img src="assets/images/productos/frutas/naranja.webp" alt="naranjas" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Naranja</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Naranja</h3>
+                  <ul class="list-success">
                     <li>Venta por kilo</li>
                     <li>Jugosas y frescas</li>
                     <li>Ricas en vitamina C</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$800</p>
+                  <p class="display-5 fw-semibold ps-2">$800</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -515,7 +519,7 @@
       <!-- === Verduras === -->
 
       <div class="modal fade" id="lechuga">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -523,16 +527,16 @@
                   <img src="assets/images/productos/verduras/lechuga.webp" alt="lechuga" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Lechuga</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Lechuga</h3>
+                  <ul class="list-success">
                     <li>Venta por unidad</li>
                     <li>Crujientes y frescas</li>
                     <li>Alto contenido en agua y fibra</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$600</p>
+                  <p class="display-5 fw-semibold ps-2">$600</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -542,7 +546,7 @@
       </div>
 
       <div class="modal fade" id="tomate">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -550,16 +554,16 @@
                   <img src="assets/images/productos/verduras/tomate.webp" alt="tomates" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Tomate</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Tomate</h3>
+                  <ul class="list-success">
                     <li>Venta por kilo</li>
                     <li>Madurado en la planta</li>
                     <li>Ricos en antioxidantes</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$1000</p>
+                  <p class="display-5 fw-semibold ps-2">$1000</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -569,7 +573,7 @@
       </div>
 
       <div class="modal fade" id="brocoli">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -577,16 +581,16 @@
                   <img src="assets/images/productos/verduras/brocoli.webp" alt="brocoli" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Brócoli</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Brócoli</h3>
+                  <ul class="list-success">
                     <li>Venta por unidad</li>
                     <li>Tallos tiernos y compactos</li>
                     <li>Ricos en vitamina K y C</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$1.200</p>
+                  <p class="display-5 fw-semibold ps-2">$1.200</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -596,7 +600,7 @@
       </div>
 
       <div class="modal fade" id="papas">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -604,16 +608,16 @@
                   <img src="assets/images/productos/verduras/papa.webp" alt="papas" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Papas</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Papas</h3>
+                  <ul class="list-success">
                     <li>Venta por kilo</li>
                     <li>Variedades seleccionadas</li>
                     <li>Buena fuente de carbohidratos</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$500</p>
+                  <p class="display-5 fw-semibold ps-2">$500</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -623,7 +627,7 @@
       </div>
 
       <div class="modal fade" id="zanahoria">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -631,16 +635,16 @@
                   <img src="assets/images/productos/verduras/zanahoria.webp" alt="zanahorias" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Zanahoria</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Zanahoria</h3>
+                  <ul class="list-success">
                     <li>Venta por kilo</li>
                     <li>Dulces y crujientes</li>
                     <li>Ricas en betacaroteno</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$900</p>
+                  <p class="display-5 fw-semibold ps-2">$900</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -651,8 +655,8 @@
 
       <!-- === Lácteos === -->
 
-       <div class="modal fade" id="leche">
-        <div class="modal-dialog">
+      <div class="modal fade" id="leche">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -660,16 +664,16 @@
                   <img src="assets/images/productos/lacteos/leche.webp" alt="leche" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Leche</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Leche</h3>
+                  <ul class="list-success">
                     <li>Venta por litro</li>
                     <li>Fresca y pasteurizada</li>
                     <li>Excelente fuente de calcio</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$1500</p>
+                  <p class="display-5 fw-semibold ps-2">$1500</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -678,8 +682,8 @@
         </div>
       </div>
 
-       <div class="modal fade" id="quesillo">
-        <div class="modal-dialog">
+      <div class="modal fade" id="quesillo">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -687,16 +691,16 @@
                   <img src="assets/images/productos/lacteos/queso.webp" alt="quesillo" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Quesillo</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Quesillo</h3>
+                  <ul class="list-success">
                     <li>Quesillo de 250grs.</li>
                     <li>Textura suave y ligera</li>
                     <li>Vérsatil y nutritivo</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$2500</p>
+                  <p class="display-5 fw-semibold ps-2">$2500</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -705,8 +709,8 @@
         </div>
       </div>
 
-       <div class="modal fade" id="huevos">
-        <div class="modal-dialog">
+      <div class="modal fade" id="huevos">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -714,16 +718,16 @@
                   <img src="assets/images/productos/lacteos/huevos.webp" alt="huevos" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Huevos</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Huevos</h3>
+                  <ul class="list-success">
                     <li>Venta por docena</li>
                     <li>Provenientes de gallinas felices</li>
                     <li>Gran fuente de vitaminas</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$2500</p>
+                  <p class="display-5 fw-semibold ps-2">$2500</p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
@@ -732,8 +736,8 @@
         </div>
       </div>
 
-       <div class="modal fade" id="queso">
-        <div class="modal-dialog">
+      <div class="modal fade" id="queso">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-body">
               <div class="row">
@@ -741,16 +745,16 @@
                   <img src="assets/images/productos/lacteos/queso2.webp" alt="queso" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-around">
-                  <h3 class="modal-title">Queso</h3>
-                  <ul>
+                  <h3 class="modal-title text-sm-center">Queso</h3>
+                  <ul class="list-success">
                     <li>Venta por peso</li>
                     <li>Elaborado con leche entera de vaca</li>
                     <li>Excelente aporte de proteínas</li>
                   </ul>
-                  <p class="display-5 fw-semibold">$2000 <span class="fs-3">(1/4)</span></p>
+                  <p class="display-5 fw-semibold ps-2">$2000 <span class="fs-3">(1/4)</span></p>
                   <div class="btn-group hstack gap-4">
-                    <button class="btn btn-warning border-right rounded" data-bs-dismiss="modal">Cerrar</button>
-                    <button class="btn btn-success border-left rounded">Comprar</button>
+                    <button class="btn btn-warning border-right rounded fw-bolder" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-success border-left rounded fw-bolder">Comprar</button>
                   </div>
                 </div>
               </div>
